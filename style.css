@@ -161,3 +161,29 @@ body{
       border-bottom: 5px solid white;
       padding-bottom: 100px;
       }
+
+
+      @media only screen and (max-width: 800px) {
+        .exp{
+            visibility: hidden;
+        }
+        #expm{
+           visibility: hidden;
+        }
+        nav{
+            display: flex;
+            flex-direction: column;
+            float: left;
+            padding-top: 160px;
+        }
+        #choices{
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          padding-left: 200px;
+          
+        }
+        
+
+
+      }
