@@ -1,0 +1,163 @@
+body{
+    color: white;
+    background-color:#BFD7EA;
+    font-size: 30px;
+  }
+  
+  header{
+    /* background: url(ripped.png); */
+    background-position: center;
+    height: 150px;
+    color: gray;
+    background-color: #05668D;
+  }
+  
+  .exp{
+    width: 170px;
+    height: 150px;
+    border-radius: 50%;
+    
+   }
+  
+  #expm{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 20px 100px 20px;
+    height: 460px;
+    animation: fadeIn 3s ease-in 1;
+    border-bottom: 5px solid white;
+    
+  }
+  
+  
+  #wheel{
+    width: 200px;
+    height: 200px;
+    padding-top: 10px;
+    animation: wheelMoving 5s infinite;
+  
+  }
+  #choices{
+    display: flex;
+    justify-content: space-around;
+    align-content: space-between;
+    border-bottom: 5px solid white;
+  }
+  
+  .cutCh{
+    width: 200px;
+    text-align: center;
+  
+  }
+  .paperCh{
+    width: 200px;
+  
+    text-align: center;
+  }
+  
+  .colorCh{
+    width: 200px;
+    text-align: center;
+  }
+  
+  li{
+    list-style: none;
+  }
+  
+  footer{
+   display: flex;
+   justify-content: space-evenly;
+   align-items: flex-end;
+    color: black;
+    font-size: 16px;
+    background-color: #05668D;
+  }
+  
+  .address{
+    width: 100px;
+  }
+  .recycle-content{
+    display: flex;
+    justify-content: space-between;
+    
+  }
+  #recy{
+     padding: 0px 20px 20px 20px;
+     border-bottom: 5px solid white;
+  }
+  span{
+    font-size: 15px;
+  }
+  
+  #wholeContainer{
+    width: 1230px;
+    margin: auto;
+  
+  }
+  #history{
+   height: 300px;
+   padding: 20px 20px 20px 20px;
+   border-bottom: 5px solid white;
+  
+  
+  }
+  #rec{
+    width: 950px;
+    
+  }
+  
+  
+  @keyframes wheelMoving{
+    0%{
+      transform: rotate(0deg)
+    }
+    25%{
+      transform: rotate(30deg)
+    }
+    50%{
+      transform: rotate(90deg)
+    }
+    75%{
+      transform: rotate(120deg)
+    }
+    100%{
+      transform: rotate(360deg)
+    }
+  }
+  nav{
+    font-size: 25px;
+    padding-top: 110px;
+    float: right;
+    padding-right: 20px;
+  
+  }
+  #logo{
+    padding-top: 30px;
+    padding-left: 20px;
+  }
+  
+  .closer{
+    padding-top: 30px;
+  }
+  a{
+    text-decoration: none;
+    color: white;
+  }
+  
+  .foo{
+    padding-bottom: 18px;
+  }
+  
+  @keyframes fadeIn {
+          0% {opacity: 0;}
+          100% {opacity: 1;}
+       } 
+ #video{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      border-bottom: 5px solid white;
+      padding-bottom: 100px;
+      }
